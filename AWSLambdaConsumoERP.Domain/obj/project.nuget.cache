@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/KpMEdcW9bLnaEyQMcOjQxqe1pLVSt0wX3/Wc4wf2w2Xk44FdsU0AdLsaX/EKJ0k2GSz1lhxCCB9ZwmzIUhJ8A==",
+  "success": true,
+  "projectFilePath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leidy Rueda\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\Leidy Rueda\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Leidy Rueda\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leidy Rueda\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

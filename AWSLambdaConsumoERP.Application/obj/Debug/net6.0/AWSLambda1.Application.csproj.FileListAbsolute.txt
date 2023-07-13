@@ -1,0 +1,17 @@
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambda1.Application.deps.json
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambda1.Application.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambda1.Application.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambda1.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambda1.Persistence.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambda1.Domain.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambda1.Persistence.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambda1.Application.csproj.AssemblyReference.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambda1.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambda1.Application.AssemblyInfoInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambda1.Application.AssemblyInfo.cs
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambda1.Application.csproj.CoreCompileInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambda1.Application.csproj.CopyComplete
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambda1.Application.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\refint\AWSLambda1.Application.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambda1.Application.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\ref\AWSLambda1.Application.dll

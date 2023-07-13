@@ -1,0 +1,15 @@
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Debug\net6.0\AWSLambdaConsumoERP.Persistence.deps.json
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Debug\net6.0\AWSLambdaConsumoERP.Persistence.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Debug\net6.0\AWSLambdaConsumoERP.Persistence.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Debug\net6.0\AWSLambdaConsumoERP.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Debug\net6.0\AWSLambdaConsumoERP.Domain.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\AWSLambdaConsumoERP.Persistence.csproj.AssemblyReference.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\AWSLambdaConsumoERP.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\AWSLambdaConsumoERP.Persistence.AssemblyInfoInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\AWSLambdaConsumoERP.Persistence.AssemblyInfo.cs
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\AWSLambdaConsumoERP.Persistence.csproj.CoreCompileInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\AWSLambdaConsumoERP.Persistence.csproj.CopyComplete
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\AWSLambdaConsumoERP.Persistence.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\refint\AWSLambdaConsumoERP.Persistence.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\AWSLambdaConsumoERP.Persistence.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Debug\net6.0\ref\AWSLambdaConsumoERP.Persistence.dll

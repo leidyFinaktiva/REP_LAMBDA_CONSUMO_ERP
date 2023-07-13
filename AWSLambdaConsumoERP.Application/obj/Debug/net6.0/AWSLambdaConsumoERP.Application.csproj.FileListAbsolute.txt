@@ -1,0 +1,17 @@
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambdaConsumoERP.Application.deps.json
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambdaConsumoERP.Application.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambdaConsumoERP.Application.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambdaConsumoERP.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambdaConsumoERP.Persistence.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambdaConsumoERP.Domain.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\bin\Debug\net6.0\AWSLambdaConsumoERP.Persistence.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambdaConsumoERP.Application.csproj.AssemblyReference.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambdaConsumoERP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambdaConsumoERP.Application.AssemblyInfoInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambdaConsumoERP.Application.AssemblyInfo.cs
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambdaConsumoERP.Application.csproj.CoreCompileInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambdaConsumoERP.Application.csproj.CopyComplete
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambdaConsumoERP.Application.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\refint\AWSLambdaConsumoERP.Application.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\AWSLambdaConsumoERP.Application.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Application\obj\Debug\net6.0\ref\AWSLambdaConsumoERP.Application.dll

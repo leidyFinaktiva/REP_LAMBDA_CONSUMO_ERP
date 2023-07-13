@@ -1,0 +1,7 @@
+2023-04-17 12:33:05.279 -05:00 [INF] Now listening on: http://localhost:7175
+2023-04-17 12:33:05.320 -05:00 [INF] Now listening on: http://localhost:5046
+2023-04-17 12:33:05.324 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-17 12:33:05.326 -05:00 [INF] Hosting environment: Development
+2023-04-17 12:33:05.326 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-04-17 12:33:54.218 -05:00 [WRN] Failed to determine the https port for redirect.
+2023-04-17 12:33:54.304 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 400 in 77.5251 ms

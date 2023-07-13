@@ -1,0 +1,782 @@
+2023-04-14 08:37:33.108 -05:00 [INF] Now listening on: http://localhost:7175
+2023-04-14 08:37:33.177 -05:00 [INF] Now listening on: http://localhost:5046
+2023-04-14 08:37:33.184 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-14 08:37:33.186 -05:00 [INF] Hosting environment: Development
+2023-04-14 08:37:33.187 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-04-14 08:44:16.924 -05:00 [WRN] Failed to determine the https port for redirect.
+2023-04-14 08:44:28.591 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900896883 responded 200 in 11654.8249 ms
+2023-04-14 08:47:30.895 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 179630.6129 ms
+2023-04-14 08:49:12.337 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900896883 responded 200 in 3792.5020 ms
+2023-04-14 08:49:20.254 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 7802.8553 ms
+2023-04-14 08:49:28.196 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900870802 responded 200 in 7224.3649 ms
+2023-04-14 08:49:41.382 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 13176.1505 ms
+2023-04-14 10:00:19.848 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 400 in 58.1899 ms
+2023-04-14 10:06:18.066 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 18781.0250 ms
+2023-04-14 10:07:41.557 -05:00 [INF] Now listening on: http://localhost:7175
+2023-04-14 10:07:41.585 -05:00 [INF] Now listening on: http://localhost:5046
+2023-04-14 10:07:41.590 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-14 10:07:41.592 -05:00 [INF] Hosting environment: Development
+2023-04-14 10:07:41.592 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-04-14 10:10:11.781 -05:00 [WRN] Failed to determine the https port for redirect.
+2023-04-14 10:10:18.025 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900778367 responded 200 in 6226.1379 ms
+2023-04-14 10:10:23.349 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 5149.7720 ms
+2023-04-14 10:10:24.444 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900634812 responded 200 in 463.9045 ms
+2023-04-14 10:10:27.426 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2978.4358 ms
+2023-04-14 10:10:28.389 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901020277 responded 200 in 494.7326 ms
+2023-04-14 10:10:31.215 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2821.0473 ms
+2023-04-14 10:10:32.099 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900737652 responded 200 in 427.3051 ms
+2023-04-14 10:10:34.967 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2863.0611 ms
+2023-04-14 10:10:35.802 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900209412 responded 200 in 481.9230 ms
+2023-04-14 10:10:38.011 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 2202.2122 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:40:07.639 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900695341 responded 200 in 4297.7859 ms
+2023-04-14 11:40:14.474 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 6823.9967 ms
+2023-04-14 11:40:15.693 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900411476 responded 200 in 625.2544 ms
+2023-04-14 11:40:25.814 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 10116.3682 ms
+2023-04-14 11:40:26.835 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900849294 responded 200 in 618.9062 ms
+2023-04-14 11:40:29.763 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2919.9017 ms
+2023-04-14 11:40:30.552 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900374053 responded 200 in 418.3321 ms
+2023-04-14 11:40:37.120 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 6561.9654 ms
+2023-04-14 11:40:40.393 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900364696 responded 200 in 2912.9194 ms
+2023-04-14 11:40:45.418 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 5020.9925 ms
+2023-04-14 11:40:46.652 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900400172 responded 200 in 957.4525 ms
+2023-04-14 11:40:49.602 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2944.3726 ms
+2023-04-14 11:40:50.370 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900584771 responded 200 in 509.1529 ms
+2023-04-14 11:40:53.400 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3026.0565 ms
+2023-04-14 11:40:54.144 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900389779 responded 200 in 499.5057 ms
+2023-04-14 11:40:57.125 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2975.5991 ms
+2023-04-14 11:40:57.828 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900629928 responded 200 in 451.2711 ms
+2023-04-14 11:41:00.851 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3019.5880 ms
+2023-04-14 11:41:01.619 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900203971 responded 200 in 502.8154 ms
+2023-04-14 11:41:04.857 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3233.1652 ms
+2023-04-14 11:41:05.631 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900556448 responded 200 in 521.7198 ms
+2023-04-14 11:41:08.684 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3049.2772 ms
+2023-04-14 11:41:09.414 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900187095 responded 200 in 502.2212 ms
+2023-04-14 11:41:12.376 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2958.2973 ms
+2023-04-14 11:41:13.031 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900464792 responded 200 in 425.0573 ms
+2023-04-14 11:41:15.961 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2925.9768 ms
+2023-04-14 11:41:16.738 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900181969 responded 200 in 544.7327 ms
+2023-04-14 11:41:19.885 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3140.8140 ms
+2023-04-14 11:41:20.574 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900419769 responded 200 in 458.6143 ms
+2023-04-14 11:41:23.363 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2785.5158 ms
+2023-04-14 11:41:24.857 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900209412 responded 200 in 440.3238 ms
+2023-04-14 11:41:26.367 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1506.2639 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:41:26.867 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900072856 responded 200 in 467.1158 ms
+2023-04-14 11:41:32.082 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 5210.1334 ms
+2023-04-14 11:41:33.471 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900535286 responded 200 in 516.9680 ms
+2023-04-14 11:41:36.459 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2983.8373 ms
+2023-04-14 11:41:37.341 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900842621 responded 200 in 454.9834 ms
+2023-04-14 11:41:40.186 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2839.4661 ms
+2023-04-14 11:41:40.929 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900720893 responded 200 in 473.0732 ms
+2023-04-14 11:41:42.387 -05:00 [ERR] HTTP PUT /api/Client/UpdateClient/794 responded 500 in 1453.8246 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 86
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.UpdateClient(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 41
+   at lambda_method111(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:41:43.072 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900943918 responded 200 in 654.8649 ms
+2023-04-14 11:41:45.996 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2920.5457 ms
+2023-04-14 11:41:47.419 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900063271 responded 200 in 607.7360 ms
+2023-04-14 11:41:50.371 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2947.4690 ms
+2023-04-14 11:41:51.885 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900217076 responded 200 in 429.1123 ms
+2023-04-14 11:41:53.269 -05:00 [ERR] HTTP PUT /api/Client/UpdateClient/794 responded 500 in 1380.1911 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 86
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.UpdateClient(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 41
+   at lambda_method111(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:41:53.725 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900334748 responded 200 in 430.3570 ms
+2023-04-14 11:41:56.656 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2925.4676 ms
+2023-04-14 11:41:57.608 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860056702 responded 200 in 456.0659 ms
+2023-04-14 11:41:58.976 -05:00 [ERR] HTTP PUT /api/Client/UpdateClient/794 responded 500 in 1363.1000 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 86
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.UpdateClient(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 41
+   at lambda_method111(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:41:59.464 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900711469 responded 200 in 453.1155 ms
+2023-04-14 11:42:00.905 -05:00 [ERR] HTTP PUT /api/Client/UpdateClient/794 responded 500 in 1435.1922 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 86
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.UpdateClient(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 41
+   at lambda_method111(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:42:01.365 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901054811 responded 200 in 428.6751 ms
+2023-04-14 11:42:02.763 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1392.2625 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:42:03.226 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900518599 responded 200 in 431.0871 ms
+2023-04-14 11:42:06.437 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3206.9084 ms
+2023-04-14 11:42:07.510 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900894669 responded 200 in 713.9131 ms
+2023-04-14 11:42:10.683 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3168.9961 ms
+2023-04-14 11:42:11.460 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900858588 responded 200 in 429.8238 ms
+2023-04-14 11:42:14.390 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2926.6189 ms
+2023-04-14 11:42:15.150 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900293126 responded 200 in 437.2278 ms
+2023-04-14 11:42:20.346 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 5191.6916 ms
+2023-04-14 11:42:21.166 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900344808 responded 200 in 508.1220 ms
+2023-04-14 11:42:26.286 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 5116.5561 ms
+2023-04-14 11:42:27.154 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900423421 responded 200 in 658.1914 ms
+2023-04-14 11:42:29.967 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2809.2491 ms
+2023-04-14 11:42:30.601 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/830130274 responded 200 in 406.5973 ms
+2023-04-14 11:42:31.930 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1326.0028 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:42:32.421 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900368510 responded 200 in 458.5450 ms
+2023-04-14 11:42:33.774 -05:00 [ERR] HTTP PUT /api/Client/UpdateClient/794 responded 500 in 1348.8257 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 86
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.UpdateClient(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 41
+   at lambda_method111(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:42:34.216 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900630461 responded 200 in 412.8930 ms
+2023-04-14 11:42:35.624 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1404.0688 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:42:36.100 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900873674 responded 200 in 445.5256 ms
+2023-04-14 11:42:39.211 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3106.9772 ms
+2023-04-14 11:42:40.139 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900360277 responded 200 in 689.6174 ms
+2023-04-14 11:42:43.027 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2884.0170 ms
+2023-04-14 11:42:45.217 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900037743 responded 200 in 459.8370 ms
+2023-04-14 11:42:48.050 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2824.9446 ms
+2023-04-14 11:42:50.247 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900692409 responded 200 in 520.5143 ms
+2023-04-14 11:42:53.110 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2859.0180 ms
+2023-04-14 11:42:54.214 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900558231 responded 200 in 440.3924 ms
+2023-04-14 11:42:57.399 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3181.9088 ms
+2023-04-14 11:42:58.284 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900299685 responded 200 in 438.7607 ms
+2023-04-14 11:42:59.833 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1543.6809 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:43:00.593 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901052788 responded 200 in 730.3408 ms
+2023-04-14 11:43:02.071 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1474.4723 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:43:02.770 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900373376 responded 200 in 670.4047 ms
+2023-04-14 11:43:04.292 -05:00 [ERR] HTTP PUT /api/Client/UpdateClient/794 responded 500 in 1519.1636 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 86
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.UpdateClient(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 41
+   at lambda_method111(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:43:05.086 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/800138541 responded 200 in 763.9608 ms
+2023-04-14 11:43:07.976 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 8894.2633 ms
+2023-04-14 11:43:10.153 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 5062.8702 ms
+2023-04-14 11:43:11.011 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900622511 responded 200 in 554.6085 ms
+2023-04-14 11:43:14.380 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3363.8155 ms
+2023-04-14 11:43:15.062 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901059771 responded 200 in 423.5830 ms
+2023-04-14 11:43:21.834 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 6767.8502 ms
+2023-04-14 11:43:22.530 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900850867 responded 200 in 451.3135 ms
+2023-04-14 11:43:25.496 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2961.7984 ms
+2023-04-14 11:43:26.633 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900523670 responded 200 in 906.1851 ms
+2023-04-14 11:43:30.269 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3632.4094 ms
+2023-04-14 11:43:31.799 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900553310 responded 200 in 1282.7258 ms
+2023-04-14 11:43:35.514 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3710.3610 ms
+2023-04-14 11:43:37.555 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900722767 responded 200 in 1688.9819 ms
+2023-04-14 11:43:40.917 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3357.7225 ms
+2023-04-14 11:43:44.092 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/811015370 responded 200 in 2951.4336 ms
+2023-04-14 11:43:53.155 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 9058.5790 ms
+2023-04-14 11:44:03.307 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901076413 responded 200 in 8994.6608 ms
+2023-04-14 11:44:07.889 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 4577.2098 ms
+2023-04-14 11:44:09.182 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900572842 responded 200 in 424.8203 ms
+2023-04-14 11:44:12.095 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2909.8874 ms
+2023-04-14 11:44:12.829 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900943086 responded 200 in 407.8734 ms
+2023-04-14 11:44:16.159 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3326.5880 ms
+2023-04-14 11:44:18.997 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900531259 responded 200 in 1384.6332 ms
+2023-04-14 11:44:22.278 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3276.5158 ms
+2023-04-14 11:44:24.793 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900969995 responded 200 in 711.1528 ms
+2023-04-14 11:44:28.011 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3213.9011 ms
+2023-04-14 11:44:29.392 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901071014 responded 200 in 458.1807 ms
+2023-04-14 11:44:32.362 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2966.4330 ms
+2023-04-14 11:44:33.585 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901160081 responded 200 in 475.0283 ms
+2023-04-14 11:44:36.576 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2987.3293 ms
+2023-04-14 11:44:37.514 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900639351 responded 200 in 516.6589 ms
+2023-04-14 11:44:40.738 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3217.8682 ms
+2023-04-14 11:44:41.621 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900537292 responded 200 in 552.7133 ms
+2023-04-14 11:44:44.614 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2989.9300 ms
+2023-04-14 11:44:45.525 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900738444 responded 200 in 503.4048 ms
+2023-04-14 11:44:48.426 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2897.4511 ms
+2023-04-14 11:44:49.416 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900124246 responded 200 in 682.5139 ms
+2023-04-14 11:44:52.360 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2938.5171 ms
+2023-04-14 11:44:53.144 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900695069 responded 200 in 457.0560 ms
+2023-04-14 11:44:56.896 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3747.8954 ms
+2023-04-14 11:44:57.683 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900510463 responded 200 in 486.5401 ms
+2023-04-14 11:45:01.398 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3711.0963 ms
+2023-04-14 11:45:02.453 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/800253952 responded 200 in 560.3020 ms
+2023-04-14 11:45:05.297 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2839.6565 ms
+2023-04-14 11:45:06.793 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900906314 responded 200 in 1215.6652 ms
+2023-04-14 11:45:10.316 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3519.7717 ms
+2023-04-14 11:45:12.087 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900345330 responded 200 in 601.0529 ms
+2023-04-14 11:45:15.075 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2983.5297 ms
+2023-04-14 11:45:16.642 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900953218 responded 200 in 599.4403 ms
+2023-04-14 11:45:19.643 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2996.1737 ms
+2023-04-14 11:45:20.487 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900444823 responded 200 in 469.4484 ms
+2023-04-14 11:45:25.681 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 5187.8230 ms
+2023-04-14 11:45:26.464 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900803697 responded 200 in 454.5812 ms
+2023-04-14 11:45:29.708 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3241.0830 ms
+2023-04-14 11:45:30.499 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901077665 responded 200 in 465.2869 ms
+2023-04-14 11:45:33.254 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2751.6880 ms
+2023-04-14 11:45:34.072 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/830506939 responded 200 in 517.3843 ms
+2023-04-14 11:45:36.923 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2847.0894 ms
+2023-04-14 11:45:37.686 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/800134939 responded 200 in 512.8193 ms
+2023-04-14 11:45:40.499 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2809.4756 ms
+2023-04-14 11:45:41.235 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900949599 responded 200 in 518.4901 ms
+2023-04-14 11:45:44.159 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2917.2432 ms
+2023-04-14 11:45:45.002 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900703907 responded 200 in 546.3639 ms
+2023-04-14 11:45:48.024 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3018.2548 ms
+2023-04-14 11:45:48.912 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900931035 responded 200 in 673.3346 ms
+2023-04-14 11:45:52.043 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3126.7997 ms
+2023-04-14 11:45:53.161 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900752488 responded 200 in 893.1895 ms
+2023-04-14 11:45:56.249 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3084.6033 ms
+2023-04-14 11:45:57.007 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900154934 responded 200 in 546.5558 ms
+2023-04-14 11:46:00.206 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3195.8240 ms
+2023-04-14 11:46:00.985 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900146183 responded 200 in 550.1853 ms
+2023-04-14 11:46:03.791 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2802.2569 ms
+2023-04-14 11:46:04.504 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900426403 responded 200 in 513.1760 ms
+2023-04-14 11:46:07.723 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3215.6607 ms
+2023-04-14 11:46:09.233 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900167121 responded 200 in 505.1962 ms
+2023-04-14 11:46:14.833 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 5591.8112 ms
+2023-04-14 11:46:16.336 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901146259 responded 200 in 536.6306 ms
+2023-04-14 11:46:19.450 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3109.8150 ms
+2023-04-14 11:46:20.323 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901128388 responded 200 in 551.9273 ms
+2023-04-14 11:46:23.458 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3131.5161 ms
+2023-04-14 11:46:24.355 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901086346 responded 200 in 564.1852 ms
+2023-04-14 11:46:27.228 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2869.1645 ms
+2023-04-14 11:46:28.784 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900823469 responded 200 in 1311.6099 ms
+2023-04-14 11:46:31.981 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3193.3128 ms
+2023-04-14 11:46:33.186 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900450714 responded 200 in 985.4290 ms
+2023-04-14 11:46:36.614 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3421.1006 ms
+2023-04-14 11:46:37.299 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900466672 responded 200 in 454.6862 ms
+2023-04-14 11:46:40.139 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2832.0304 ms
+2023-04-14 11:46:40.816 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900996739 responded 200 in 474.9119 ms
+2023-04-14 11:46:43.830 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3009.4303 ms
+2023-04-14 11:46:44.571 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900784874 responded 200 in 511.5175 ms
+2023-04-14 11:46:47.362 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2786.2883 ms
+2023-04-14 11:46:48.088 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901051191 responded 200 in 504.9498 ms
+2023-04-14 11:46:51.072 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2981.1478 ms
+2023-04-14 11:46:51.857 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900525880 responded 200 in 544.0438 ms
+2023-04-14 11:46:55.271 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3406.8467 ms
+2023-04-14 11:46:55.906 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901207432 responded 200 in 416.6874 ms
+2023-04-14 11:46:58.830 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2919.9238 ms
+2023-04-14 11:46:59.527 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900337062 responded 200 in 450.9773 ms
+2023-04-14 11:47:02.445 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2915.1884 ms
+2023-04-14 11:47:04.195 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900534945 responded 200 in 513.0866 ms
+2023-04-14 11:47:07.350 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3148.2684 ms
+2023-04-14 11:47:08.462 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901213672 responded 200 in 499.1345 ms
+2023-04-14 11:47:11.867 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3400.8743 ms
+2023-04-14 11:47:12.632 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901046803 responded 200 in 447.6712 ms
+2023-04-14 11:47:15.490 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2854.0841 ms
+2023-04-14 11:47:16.993 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900167316 responded 200 in 477.5222 ms
+2023-04-14 11:47:19.727 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2729.3842 ms
+2023-04-14 11:47:21.012 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900720404 responded 200 in 435.3936 ms
+2023-04-14 11:47:23.982 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2966.7920 ms
+2023-04-14 11:47:24.895 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901091142 responded 200 in 603.6825 ms
+2023-04-14 11:47:27.872 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2971.0676 ms
+2023-04-14 11:47:28.599 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900724895 responded 200 in 424.0574 ms
+2023-04-14 11:47:31.491 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2888.2680 ms
+2023-04-14 11:47:32.242 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900559088 responded 200 in 439.6682 ms
+2023-04-14 11:47:35.031 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2786.3787 ms
+2023-04-14 11:47:35.837 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901162172 responded 200 in 440.7028 ms
+2023-04-14 11:47:38.880 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3040.2406 ms
+2023-04-14 11:47:39.649 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900500771 responded 200 in 439.0200 ms
+2023-04-14 11:47:42.605 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2949.7327 ms
+2023-04-14 11:47:43.317 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900694654 responded 200 in 411.4577 ms
+2023-04-14 11:47:46.153 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2831.6579 ms
+2023-04-14 11:47:47.069 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901049552 responded 200 in 614.0445 ms
+2023-04-14 11:47:49.935 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2861.1762 ms
+2023-04-14 11:47:50.743 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900244446 responded 200 in 427.6025 ms
+2023-04-14 11:47:53.695 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2945.2688 ms
+2023-04-14 11:47:54.441 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900363974 responded 200 in 419.3512 ms
+2023-04-14 11:47:57.470 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3024.5553 ms
+2023-04-14 11:47:58.193 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900831382 responded 200 in 438.9442 ms
+2023-04-14 11:48:01.112 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2915.3518 ms
+2023-04-14 11:48:01.757 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901161598 responded 200 in 431.1217 ms
+2023-04-14 11:48:03.210 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1449.3576 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:48:03.755 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900428395 responded 200 in 513.8837 ms
+2023-04-14 11:48:05.196 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1435.4231 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:48:05.888 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900771183 responded 200 in 660.2463 ms
+2023-04-14 11:48:09.086 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3194.0034 ms
+2023-04-14 11:48:10.762 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901070477 responded 200 in 483.1083 ms
+2023-04-14 11:48:13.628 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2862.0314 ms
+2023-04-14 11:48:14.826 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900927751 responded 200 in 478.2053 ms
+2023-04-14 11:48:17.650 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2819.9362 ms
+2023-04-14 11:48:18.380 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900537021 responded 200 in 411.6983 ms
+2023-04-14 11:48:21.079 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2695.7163 ms
+2023-04-14 11:48:21.708 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900996250 responded 200 in 409.6027 ms
+2023-04-14 11:48:24.574 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2862.6486 ms
+2023-04-14 11:48:25.272 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900787144 responded 200 in 476.8458 ms
+2023-04-14 11:48:28.360 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3085.0525 ms
+2023-04-14 11:48:30.228 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900670870 responded 200 in 755.0677 ms
+2023-04-14 11:48:33.142 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2910.7885 ms
+2023-04-14 11:48:34.314 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901188556 responded 200 in 437.7663 ms
+2023-04-14 11:48:37.106 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2788.7393 ms
+2023-04-14 11:48:37.897 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900093735 responded 200 in 453.2091 ms
+2023-04-14 11:48:41.122 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3221.3145 ms
+2023-04-14 11:48:41.958 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900721497 responded 200 in 504.7292 ms
+2023-04-14 11:48:44.718 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2755.7757 ms
+2023-04-14 11:48:45.631 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900079651 responded 200 in 593.4464 ms
+2023-04-14 11:48:48.450 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2815.7386 ms
+2023-04-14 11:48:49.237 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901057595 responded 200 in 466.7305 ms
+2023-04-14 11:48:52.048 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2805.4631 ms
+2023-04-14 11:48:52.768 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900722261 responded 200 in 496.7352 ms
+2023-04-14 11:48:55.531 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2759.7604 ms
+2023-04-14 11:48:56.219 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900992153 responded 200 in 473.6695 ms
+2023-04-14 11:48:59.035 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2811.7084 ms
+2023-04-14 11:48:59.758 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900406716 responded 200 in 473.9007 ms
+2023-04-14 11:49:00.284 -05:00 [ERR] HTTP PUT /api/Client/UpdateClient/794 responded 500 in 522.2383 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Unexpected character encountered while parsing value: [. Path 'errors', line 1, position 24.
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 86
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.UpdateClient(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 41
+   at lambda_method111(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:49:00.823 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/811041157 responded 200 in 506.3419 ms
+2023-04-14 11:49:02.348 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1521.4042 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:49:03.067 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/830074241 responded 200 in 690.4331 ms
+2023-04-14 11:49:05.845 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2773.7740 ms
+2023-04-14 11:49:07.362 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901168279 responded 200 in 591.7673 ms
+2023-04-14 11:49:10.273 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2907.4665 ms
+2023-04-14 11:49:11.732 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900948364 responded 200 in 461.8200 ms
+2023-04-14 11:49:14.652 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2915.4181 ms
+2023-04-14 11:49:15.526 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900709391 responded 200 in 533.9486 ms
+2023-04-14 11:49:18.425 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2895.7935 ms
+2023-04-14 11:49:19.196 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900652376 responded 200 in 459.6481 ms
+2023-04-14 11:49:22.082 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2880.1526 ms
+2023-04-14 11:49:22.776 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900430351 responded 200 in 492.0279 ms
+2023-04-14 11:49:25.646 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2865.4164 ms
+2023-04-14 11:49:26.377 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900599145 responded 200 in 456.1239 ms
+2023-04-14 11:49:27.899 -05:00 [ERR] HTTP POST /api/Client/AddClient/794 responded 500 in 1518.3237 ms
+System.Exception: ConsumirServicioERP https://7575517-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=794&deploy=1 ERROR Request failed with status code BadRequest
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String webAPIURL, String data, Method method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 101
+   at Integrador.ERP.Infraestructure.API.ServiceERP`1.ConsumirServicioERP(String url, String data, String method) in C:\Desarrollo\REP_ERP\Integrador.ERP.Infraestructure\API\ServiceERP.cs:line 44
+   at Integrador.ERP.Application.Features.Clientes.Commands.CreateClienteERP.ClientCommandHandler`1.Handle(RequestObject`1 request, CancellationToken cancellation) in C:\Desarrollo\REP_ERP\Integrador.ERP.Application\Features\Clientes\Commands\CreateClienteERP\CreateClientCommandHandler.cs:line 81
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Integrador.ERP.Api.Controllers.ClientController.CrearCliente(CreateClientCommand createItemCommand, String scriptCostumer) in C:\Desarrollo\REP_ERP\Integrador.ERP.Api\Controllers\ClientController.cs:line 30
+   at lambda_method132(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-14 11:49:28.383 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900472103 responded 200 in 455.6834 ms
+2023-04-14 11:49:31.390 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3002.5128 ms
+2023-04-14 11:49:32.094 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900305257 responded 200 in 505.9880 ms
+2023-04-14 11:49:35.119 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3021.7413 ms
+2023-04-14 11:49:35.742 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900801769 responded 200 in 421.2963 ms
+2023-04-14 11:49:38.753 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3006.7832 ms
+2023-04-14 11:49:39.432 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900634403 responded 200 in 468.7505 ms
+2023-04-14 11:49:42.216 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2780.9450 ms
+2023-04-14 11:49:42.914 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900756278 responded 200 in 467.1058 ms
+2023-04-14 11:49:45.792 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2872.7786 ms
+2023-04-14 11:49:46.509 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/811001742 responded 200 in 498.4657 ms
+2023-04-14 11:49:49.462 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2948.9165 ms
+2023-04-14 11:49:50.137 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900689323 responded 200 in 471.9399 ms
+2023-04-14 11:49:52.998 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2857.2489 ms
+2023-04-14 11:49:53.922 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900337367 responded 200 in 594.4578 ms
+2023-04-14 11:49:56.667 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2742.3608 ms
+2023-04-14 11:49:57.430 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901080133 responded 200 in 494.0419 ms
+2023-04-14 11:50:00.237 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2804.1603 ms
+2023-04-14 11:50:02.166 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900963806 responded 200 in 720.1060 ms
+2023-04-14 11:50:05.063 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2892.3698 ms
+2023-04-14 11:50:06.128 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900491846 responded 200 in 458.7293 ms
+2023-04-14 11:50:09.496 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3364.2788 ms
+2023-04-14 11:50:10.313 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900573531 responded 200 in 483.9928 ms
+2023-04-14 11:50:15.993 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 5677.0866 ms
+2023-04-14 11:50:16.896 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/901057820 responded 200 in 644.4216 ms
+2023-04-14 11:50:20.012 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3111.4974 ms
+2023-04-14 11:51:56.670 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900364696 responded 200 in 896.9096 ms
+2023-04-14 11:52:00.062 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3267.6687 ms
+2023-04-14 11:55:04.702 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900364696 responded 200 in 656.4584 ms
+2023-04-14 11:55:44.398 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 4213.9778 ms
+2023-04-14 11:56:29.956 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900400172 responded 200 in 529.4523 ms
+2023-04-14 11:56:34.962 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3783.0237 ms
+2023-04-14 11:56:35.818 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900584771 responded 200 in 430.0280 ms
+2023-04-14 11:56:38.996 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3168.8319 ms
+2023-04-14 11:56:39.922 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900389779 responded 200 in 493.2003 ms
+2023-04-14 11:56:42.866 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2940.7436 ms
+2023-04-14 12:07:38.906 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900364696 responded 200 in 1991.7739 ms
+2023-04-14 12:07:42.846 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 3932.5457 ms
+2023-04-14 12:07:43.809 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900400172 responded 200 in 637.9830 ms
+2023-04-14 12:07:46.568 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2754.4313 ms
+2023-04-14 12:07:47.380 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900584771 responded 200 in 458.2043 ms
+2023-04-14 12:07:50.384 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2999.4298 ms
+2023-04-14 12:07:51.251 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/900389779 responded 200 in 511.1009 ms
+2023-04-14 12:07:54.046 -05:00 [INF] HTTP PUT /api/Client/UpdateClient/794 responded 200 in 2785.4269 ms
+2023-04-14 12:27:32.635 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 11558.3705 ms
+2023-04-14 12:27:59.765 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 4145.5423 ms
+2023-04-14 17:09:46.559 -05:00 [INF] Now listening on: http://localhost:7175
+2023-04-14 17:09:46.617 -05:00 [INF] Now listening on: http://localhost:5046
+2023-04-14 17:09:46.625 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-14 17:09:46.627 -05:00 [INF] Hosting environment: Development
+2023-04-14 17:09:46.628 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\

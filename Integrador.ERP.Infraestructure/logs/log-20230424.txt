@@ -1,0 +1,16 @@
+2023-04-24 16:09:35.882 -05:00 [INF] Now listening on: http://localhost:7175
+2023-04-24 16:09:35.935 -05:00 [INF] Now listening on: http://localhost:5046
+2023-04-24 16:09:35.943 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-24 16:09:35.945 -05:00 [INF] Hosting environment: Development
+2023-04-24 16:09:35.946 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-04-24 16:09:36.033 -05:00 [WRN] Failed to determine the https port for redirect.
+2023-04-24 16:09:46.198 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 10148.2189 ms
+2023-04-24 16:13:28.500 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 2281.2509 ms
+2023-04-24 16:26:08.833 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 3611.3391 ms
+2023-04-24 16:30:08.260 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 2699.2271 ms
+2023-04-24 16:40:17.271 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 2833.0040 ms
+2023-04-24 16:44:20.301 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 1419.7273 ms
+2023-04-24 16:44:57.236 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 713.7513 ms
+2023-04-24 16:48:32.523 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 2029.3806 ms
+2023-04-24 16:51:54.889 -05:00 [INF] HTTP GET /api/Client/GetClient/794/8/860501007 responded 200 in 1680.4017 ms
+2023-04-24 17:00:46.041 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 30750.2528 ms

@@ -1,0 +1,5 @@
+2023-05-02 15:33:30.198 -05:00 [INF] Now listening on: http://localhost:7175
+2023-05-02 15:33:30.260 -05:00 [INF] Now listening on: http://localhost:5046
+2023-05-02 15:33:30.267 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 15:33:30.269 -05:00 [INF] Hosting environment: Development
+2023-05-02 15:33:30.270 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\

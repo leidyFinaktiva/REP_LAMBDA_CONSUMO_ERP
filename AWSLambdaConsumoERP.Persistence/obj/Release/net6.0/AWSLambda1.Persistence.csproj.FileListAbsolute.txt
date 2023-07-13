@@ -1,0 +1,17 @@
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Release\net6.0\AWSLambda1.Persistence.deps.json
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Release\net6.0\AWSLambda1.Persistence.runtimeconfig.json
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Release\net6.0\AWSLambda1.Persistence.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Release\net6.0\AWSLambda1.Persistence.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Release\net6.0\AWSLambda1.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\bin\Release\net6.0\AWSLambda1.Domain.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.csproj.AssemblyReference.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.AssemblyInfoInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.AssemblyInfo.cs
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.csproj.CoreCompileInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.csproj.CopyComplete
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\refint\AWSLambda1.Persistence.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\AWSLambda1.Persistence.genruntimeconfig.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Persistence\obj\Release\net6.0\ref\AWSLambda1.Persistence.dll

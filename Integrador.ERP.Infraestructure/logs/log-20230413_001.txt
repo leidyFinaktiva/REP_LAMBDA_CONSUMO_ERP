@@ -1,0 +1,24 @@
+2023-04-13 20:41:56.578 -05:00 [INF] Now listening on: http://localhost:7178
+2023-04-13 20:41:56.616 -05:00 [INF] Now listening on: http://localhost:5049
+2023-04-13 20:41:56.622 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-13 20:41:56.627 -05:00 [INF] Hosting environment: Development
+2023-04-13 20:41:56.630 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-04-13 20:50:10.775 -05:00 [INF] Now listening on: http://localhost:7175
+2023-04-13 20:50:10.847 -05:00 [INF] Now listening on: http://localhost:5046
+2023-04-13 20:50:10.857 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-13 20:50:10.859 -05:00 [INF] Hosting environment: Development
+2023-04-13 20:50:10.860 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-04-13 20:51:25.585 -05:00 [WRN] Failed to determine the https port for redirect.
+2023-04-13 20:51:25.805 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 400 in 205.5376 ms
+2023-04-13 20:54:16.846 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 400 in 1.8201 ms
+2023-04-13 21:15:13.322 -05:00 [INF] Now listening on: http://localhost:7175
+2023-04-13 21:15:13.362 -05:00 [INF] Now listening on: http://localhost:5046
+2023-04-13 21:15:13.368 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-13 21:15:13.370 -05:00 [INF] Hosting environment: Development
+2023-04-13 21:15:13.371 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-04-13 21:15:23.301 -05:00 [WRN] Failed to determine the https port for redirect.
+2023-04-13 21:15:51.875 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 28556.9959 ms
+2023-04-13 21:17:54.282 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 84037.5219 ms
+2023-04-13 21:20:12.625 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 14957.2796 ms
+2023-04-13 21:23:16.120 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 12656.1609 ms
+2023-04-13 21:27:21.015 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 10142.6250 ms

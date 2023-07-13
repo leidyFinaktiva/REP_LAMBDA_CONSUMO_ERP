@@ -1,0 +1,66 @@
+2023-03-29 07:59:41.041 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 07:59:41.095 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 07:59:41.101 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 07:59:41.104 -05:00 [INF] Hosting environment: Development
+2023-03-29 07:59:41.104 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 08:12:27.738 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 08:12:28.023 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 08:12:28.029 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 08:12:28.032 -05:00 [INF] Hosting environment: Development
+2023-03-29 08:12:28.033 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 08:14:22.626 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 08:14:22.662 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 08:14:22.667 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 08:14:22.668 -05:00 [INF] Hosting environment: Development
+2023-03-29 08:14:22.668 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 08:30:38.272 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 08:30:38.300 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 08:30:38.304 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 08:30:38.305 -05:00 [INF] Hosting environment: Development
+2023-03-29 08:30:38.306 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 08:35:24.824 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 08:35:24.857 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 08:35:24.862 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 08:35:24.864 -05:00 [INF] Hosting environment: Development
+2023-03-29 08:35:24.865 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 08:52:41.665 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 08:52:41.694 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 08:52:41.699 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 08:52:41.700 -05:00 [INF] Hosting environment: Development
+2023-03-29 08:52:41.701 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 08:53:17.620 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 5648.0537 ms
+2023-03-29 08:56:04.759 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 08:56:04.792 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 08:56:04.797 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 08:56:04.798 -05:00 [INF] Hosting environment: Development
+2023-03-29 08:56:04.798 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 09:14:20.872 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 09:14:20.905 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 09:14:20.910 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 09:14:20.911 -05:00 [INF] Hosting environment: Development
+2023-03-29 09:14:20.912 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 10:42:03.378 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 10:42:03.408 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 10:42:03.414 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 10:42:03.420 -05:00 [INF] Hosting environment: Development
+2023-03-29 10:42:03.421 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 10:43:06.492 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 12318.9175 ms
+2023-03-29 10:51:21.680 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 10:51:21.707 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 10:51:21.713 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 10:51:21.715 -05:00 [INF] Hosting environment: Development
+2023-03-29 10:51:21.715 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 10:52:11.128 -05:00 [INF] HTTP POST /api/Client/AddClient/794 responded 200 in 12599.5639 ms
+2023-03-29 10:56:59.898 -05:00 [INF] Now listening on: https://localhost:7173
+2023-03-29 10:56:59.931 -05:00 [INF] Now listening on: http://localhost:5045
+2023-03-29 10:56:59.935 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-29 10:56:59.936 -05:00 [INF] Hosting environment: Development
+2023-03-29 10:56:59.936 -05:00 [INF] Content root path: C:\Desarrollo\REP_ERP\Integrador.ERP.Api\
+2023-03-29 10:58:04.465 -05:00 [INF] HTTP POST /api/Invoice/InvoiceWithTaxes/801 responded 200 in 32893.1708 ms
+2023-03-29 11:00:05.889 -05:00 [INF] HTTP POST /api/Invoice/InvoiceWithoutTaxes/801 responded 200 in 26995.7577 ms
+2023-03-29 11:01:33.327 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 9699.7883 ms
+2023-03-29 14:35:56.906 -05:00 [INF] HTTP POST /api/JournalEntry/Interests/797 responded 200 in 24288.6671 ms
+2023-03-29 14:37:35.658 -05:00 [INF] HTTP POST /api/JournalEntry/Collections/798 responded 200 in 8239.1105 ms
+2023-03-29 14:38:50.906 -05:00 [INF] HTTP POST /api/JournalEntry/Credits/799 responded 200 in 7279.5159 ms
+2023-03-29 14:40:59.800 -05:00 [INF] HTTP POST /api/JournalEntry/InterestAccrual/800 responded 200 in 9890.3326 ms
+2023-03-29 14:42:19.388 -05:00 [INF] HTTP POST /api/Payment/Payment/802 responded 200 in 11857.4193 ms

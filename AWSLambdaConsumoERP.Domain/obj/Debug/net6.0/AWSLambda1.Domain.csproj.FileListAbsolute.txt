@@ -1,0 +1,12 @@
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\bin\Debug\net6.0\AWSLambda1.Domain.deps.json
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\bin\Debug\net6.0\AWSLambda1.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\bin\Debug\net6.0\AWSLambda1.Domain.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\AWSLambda1.Domain.csproj.AssemblyReference.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\AWSLambda1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\AWSLambda1.Domain.AssemblyInfoInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\AWSLambda1.Domain.AssemblyInfo.cs
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\AWSLambda1.Domain.csproj.CoreCompileInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\AWSLambda1.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\refint\AWSLambda1.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\AWSLambda1.Domain.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Debug\net6.0\ref\AWSLambda1.Domain.dll

@@ -1,0 +1,14 @@
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\bin\Release\net6.0\AWSLambdaConsumoERP.Domain.deps.json
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\bin\Release\net6.0\AWSLambdaConsumoERP.Domain.runtimeconfig.json
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\bin\Release\net6.0\AWSLambdaConsumoERP.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\bin\Release\net6.0\AWSLambdaConsumoERP.Domain.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambdaConsumoERP.Domain.csproj.AssemblyReference.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambdaConsumoERP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambdaConsumoERP.Domain.AssemblyInfoInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambdaConsumoERP.Domain.AssemblyInfo.cs
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambdaConsumoERP.Domain.csproj.CoreCompileInputs.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambdaConsumoERP.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\refint\AWSLambdaConsumoERP.Domain.dll
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambdaConsumoERP.Domain.pdb
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambdaConsumoERP.Domain.genruntimeconfig.cache
+C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\ref\AWSLambdaConsumoERP.Domain.dll

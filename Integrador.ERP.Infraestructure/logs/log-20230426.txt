@@ -1,0 +1,1 @@
+2023-04-26 07:40:14.164 -05:00 [INF] HTTP POST /api/JournalEntry/Disbursement/795 responded 200 in 17318.4938 ms
