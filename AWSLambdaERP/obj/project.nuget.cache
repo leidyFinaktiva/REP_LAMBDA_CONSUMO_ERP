@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9XGVw+j2eQFDbT7uEZMyPBvqw+dcOlZ/Ty6OtBcqmQoq8c/xpDy3KcTmLPGuJnuvpymwFvYaHAh6JlhNxZFaMQ==",
+  "dgSpecHash": "1/LkYHGfm50IczK/OYRGA4gwbkQBxXZxFcAr287UeF53JaQm9y8Bg+litLA4257E/rabfmVi7SVdLbJkNZ0Hdg==",
   "success": true,
-  "projectFilePath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaERP\\AWSLambda1.csproj",
+  "projectFilePath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaERP\\AWSLambda1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.1\\amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",
@@ -28,6 +28,8 @@
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
+    "C:\\Users\\Leidy Rueda\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.15\\microsoft.netcore.app.runtime.linux-x64.6.0.15.nupkg.sha512",
+    "C:\\Users\\Leidy Rueda\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.15\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.15.nupkg.sha512",
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.15\\microsoft.netcore.app.crossgen2.win-x64.6.0.15.nupkg.sha512"
   ],
   "logs": [

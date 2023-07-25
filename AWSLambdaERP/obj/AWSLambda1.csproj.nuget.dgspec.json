@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaERP\\AWSLambda1.csproj": {}
+    "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaERP\\AWSLambda1.csproj": {}
   },
   "projects": {
-    "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj": {
+    "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj",
+        "projectUniqueName": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj",
         "projectName": "AWSLambda1.Application",
-        "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj",
+        "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj",
         "packagesPath": "C:\\Users\\Leidy Rueda\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Application\\obj\\",
+        "outputPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,11 +35,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj": {
-                "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj"
+              "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj": {
+                "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj"
               },
-              "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj": {
-                "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj"
+              "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj": {
+                "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj"
               }
             }
           }
@@ -85,16 +85,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj": {
+    "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj",
+        "projectUniqueName": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj",
         "projectName": "AWSLambda1.Domain",
-        "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj",
+        "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj",
         "packagesPath": "C:\\Users\\Leidy Rueda\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\obj\\",
+        "outputPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -153,16 +158,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj": {
+    "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj",
+        "projectUniqueName": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj",
         "projectName": "AWSLambda1.Persistence",
-        "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj",
+        "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj",
         "packagesPath": "C:\\Users\\Leidy Rueda\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\obj\\",
+        "outputPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -186,8 +196,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj": {
-                "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj"
+              "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj": {
+                "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj"
               }
             }
           }
@@ -233,16 +243,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaERP\\AWSLambda1.csproj": {
+    "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaERP\\AWSLambda1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaERP\\AWSLambda1.csproj",
+        "projectUniqueName": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaERP\\AWSLambda1.csproj",
         "projectName": "AWSLambda1",
-        "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaERP\\AWSLambda1.csproj",
+        "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaERP\\AWSLambda1.csproj",
         "packagesPath": "C:\\Users\\Leidy Rueda\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaERP\\obj\\",
+        "outputPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaERP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -266,14 +281,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj": {
-                "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj"
+              "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj": {
+                "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Application\\AWSLambda1.Application.csproj"
               },
-              "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj": {
-                "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj"
+              "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj": {
+                "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj"
               },
-              "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj": {
-                "projectPath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj"
+              "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj": {
+                "projectPath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj"
               }
             }
           }
@@ -326,7 +341,15 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
               "version": "[6.0.15, 6.0.15]"
             }
           ],
@@ -336,6 +359,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

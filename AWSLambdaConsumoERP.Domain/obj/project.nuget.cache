@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/KpMEdcW9bLnaEyQMcOjQxqe1pLVSt0wX3/Wc4wf2w2Xk44FdsU0AdLsaX/EKJ0k2GSz1lhxCCB9ZwmzIUhJ8A==",
+  "dgSpecHash": "xXFkbPqu9pVBg6kpxfjjqoyX0ohsYFg3sx+RiZ8tjEhir78ZUHRKYKQ2fmb0gQVs7R44nh3y29RqeFq5EWksSA==",
   "success": true,
-  "projectFilePath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj",
+  "projectFilePath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Domain\\AWSLambda1.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

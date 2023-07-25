@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+SDrrxzH/rKTy9UUd0bziflti90HG6BQW5QnHmpUnu73+y61u7j2FkXzfJBOWLqaZ2BZxav2GB1J1Zq0L3iYKQ==",
+  "dgSpecHash": "FfXDxJmmOZLgn3W4X79FG2cv48x+xX+L69S9bQFlf49FKgsqnVkAqlPFHHlbEKwt4iH+jK45eSum1vmx79fTkA==",
   "success": true,
-  "projectFilePath": "C:\\Desarrollo\\AWSLambdaConsumoERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj",
+  "projectFilePath": "C:\\Desarrollo\\REP_LAMBDA_CONSUMO_ERP\\AWSLambdaConsumoERP.Persistence\\AWSLambda1.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
     "C:\\Users\\Leidy Rueda\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",

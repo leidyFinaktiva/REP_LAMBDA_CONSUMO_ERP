@@ -12,3 +12,17 @@ C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\
 C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.pdb
 C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.genruntimeconfig.cache
 C:\Desarrollo\AWSLambdaConsumoERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\ref\AWSLambda1.Domain.dll
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\bin\Release\net6.0\AWSLambda1.Domain.deps.json
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\bin\Release\net6.0\AWSLambda1.Domain.runtimeconfig.json
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\bin\Release\net6.0\AWSLambda1.Domain.dll
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\bin\Release\net6.0\AWSLambda1.Domain.pdb
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.csproj.AssemblyReference.cache
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.AssemblyInfoInputs.cache
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.AssemblyInfo.cs
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.csproj.CoreCompileInputs.cache
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.dll
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\refint\AWSLambda1.Domain.dll
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.pdb
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\AWSLambda1.Domain.genruntimeconfig.cache
+C:\Desarrollo\REP_LAMBDA_CONSUMO_ERP\AWSLambdaConsumoERP.Domain\obj\Release\net6.0\ref\AWSLambda1.Domain.dll
